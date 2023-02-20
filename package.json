@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Node test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiirosora/node-test.git"
+  },
+  "author": "Cajo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiirosora/node-test/issues"
+  },
+  "homepage": "https://github.com/kiirosora/node-test#readme"
+}
