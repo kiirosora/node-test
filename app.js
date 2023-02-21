@@ -1,14 +1,12 @@
-const http = require("http");
-
-const hostname = "127.0.0.1";
+const express = require("express");
+const app = express();
 const port = 3000;
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
+app.get("/", (req, res) => {
   res.setHeader("Content-Type", "text/plain");
-  res.end("Cajo: Deployment - Render");
+  res.send("Hello World!");
 });
 
-server.listen(port, () => {
-  console.log(`Cajo: ${port}/`);
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}!`);
 });
